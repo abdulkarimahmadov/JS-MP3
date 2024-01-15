@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#mp3Player {
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+#audioPlayer {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#coverImage {
+    width: 100%;
+    max-height: 200px;
+    
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#progressBar {
+    width: 80%;
+    margin: 0 auto;
+    height: 10px;
+    background-color: #ddd;
+    position: relative;
+}
+
+#progressBar .progress {
+    height: 100%;
+    background-color: #3498db;
+    width: 0;
+    position: absolute;
+}
+
+#songTitle {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
